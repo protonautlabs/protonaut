@@ -1,0 +1,3 @@
+plugins {
+	id "io.protonaut.app.protocol-conventions"
+}

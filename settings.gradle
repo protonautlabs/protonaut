@@ -2,3 +2,5 @@ rootProject.name = "protonaut"
 
 include (":core")
 include (":protocols:engine")
+include (":protocols:http")
+include (":protocols:diameter")

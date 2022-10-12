@@ -3,9 +3,9 @@ plugins {
 }
 
 ext {
-	nettyVersion = "5.0.0.Alpha5"
+	nettyVersion = "4.1.82.Final"
 }
 
 dependencies {
-	implementation ("io.netty:netty5-all:${nettyVersion}")
+	implementation ("io.netty:netty-all:${nettyVersion}")
 }

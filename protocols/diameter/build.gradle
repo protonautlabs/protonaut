@@ -4,5 +4,4 @@ plugins {
 
 dependencies {
 	api(project(":core"))
-	api(project(":protocols:diameter"))
 }
