@@ -1,0 +1,17 @@
+plugins {
+	id "java"
+}
+
+ext {
+	junitVersion = "5.9.0"
+}
+
+repositories {
+	mavenCentral()
+	jcenter()
+}
+
+dependencies {
+	testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+}

@@ -1,0 +1,11 @@
+plugins {
+	id "io.protonaut.app.library-conventions"
+}
+
+ext {
+	nettyVersion = "5.0.0.Alpha5"
+}
+
+dependencies {
+	implementation ("io.netty:netty5-all:${nettyVersion}")
+}
